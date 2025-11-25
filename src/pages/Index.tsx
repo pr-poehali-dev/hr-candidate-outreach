@@ -213,7 +213,7 @@ const Index = () => {
             <Card className="p-8 bg-gradient-to-br from-primary/10 to-transparent border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <Icon name="Target" className="text-primary" size={32} />
-                <h3 className="text-2xl font-bold text-primary">Продукт > Креатив</h3>
+                <h3 className="text-2xl font-bold text-primary">Продукт {'>'} Креатив</h3>
               </div>
               <p className="text-muted-foreground text-lg">
                 Сначала продукт и ЦА → потом креатив, а не наоборот.
@@ -223,7 +223,7 @@ const Index = () => {
             <Card className="p-8 bg-gradient-to-br from-success/10 to-transparent border-success/30">
               <div className="flex items-center gap-3 mb-4">
                 <Icon name="TrendingUp" className="text-success" size={32} />
-                <h3 className="text-2xl font-bold text-success">Цифры > Ощущения</h3>
+                <h3 className="text-2xl font-bold text-success">Цифры {'>'} Ощущения</h3>
               </div>
               <p className="text-muted-foreground text-lg">
                 Гипотеза → тест → замер → решение (масштабировать или убить).
